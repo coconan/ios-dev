@@ -45,7 +45,8 @@ struct ContentView: View {
         }
         .foregroundColor(.blue)
         .onTapGesture {
-            emojis = ["🚚", "🏎", "🛵", "🚜", "🚗", "🚐", "🚔", "🛺", "🛩",  "🚃", "🚁", "✈️", "🏍", "🛳", "🚢"]
+            emojis = ["🚚", "🏎", "🛵", "🚜", "🚗", "🚐", "🚔", "🛺", "🛩",  "🚃", "🚁", "✈️", "🏍", "🛳", "🚢"].shuffled()
+            emojiCount = Int.random(in: 8...emojis.count)
         }
     }
     var animals: some View {
@@ -55,7 +56,8 @@ struct ContentView: View {
         }
         .foregroundColor(.blue)
         .onTapGesture {
-            emojis = ["🐶", "🦊", "🐹", "🐯", "🙈", "🦁", "🐼", "🐷", "🐸", "🐨", "🐮", "🦘", "🐬", "🐳", "🦧"]
+            emojis = ["🐶", "🦊", "🐹", "🐯", "🙈", "🦁", "🐼", "🐷", "🐸", "🐨", "🐮", "🦘", "🐬", "🐳", "🦧"].shuffled()
+            emojiCount = Int.random(in: 8...emojis.count)
         }
     }
     var plants: some View {
@@ -65,7 +67,8 @@ struct ContentView: View {
         }
         .foregroundColor(.blue)
         .onTapGesture {
-            emojis = ["🌵", "🌴", "🌲", "🌳", "🪴", "🎍", "🎄", "🌻", "🌿",  "🍁", "🍀", "💐", "🌺", "🌹", "🌼"]
+            emojis = ["🌵", "🌴", "🌲", "🌳", "🪴", "🎍", "🎄", "🌻", "🌿",  "🍁", "🍀", "💐", "🌺", "🌹", "🌼"].shuffled()
+            emojiCount = Int.random(in: 8...emojis.count)
         }
     }
 }
