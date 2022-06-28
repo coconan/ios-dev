@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		96246DEE2746B86600D2EA00 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96246DED2746B86600D2EA00 /* PreferenceKeys.swift */; };
 		96246DF22746C21D00D2EA00 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96246DF12746C21D00D2EA00 /* AnimatableFontModifier.swift */; };
+		96246DF82757D28F00D2EA00 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96246DF72757D28F00D2EA00 /* Course.swift */; };
 		965D0A60273C2AED00158A7A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D0A5F273C2AED00158A7A /* HomeView.swift */; };
 		9663E8DE27204D8C00B0DF27 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663E8DD27204D8C00B0DF27 /* Styles.swift */; };
 		9663E8E027206AF200B0DF27 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663E8DF27206AF200B0DF27 /* AccountView.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		96246DED2746B86600D2EA00 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		96246DF12746C21D00D2EA00 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		96246DF72757D28F00D2EA00 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		965D0A5F273C2AED00158A7A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9663E8DD27204D8C00B0DF27 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		9663E8DF27206AF200B0DF27 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				9688F90C27355C93001C5661 /* Tab.swift */,
 				96246DED2746B86600D2EA00 /* PreferenceKeys.swift */,
+				96246DF72757D28F00D2EA00 /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				96DA31D02746A8DF009A8497 /* NavigationBar.swift in Sources */,
 				969A7F0D273331F200D3F594 /* BlobView.swift in Sources */,
 				96C9A2D12718864400EF979D /* ContentView.swift in Sources */,
+				96246DF82757D28F00D2EA00 /* Course.swift in Sources */,
 				96C9A2CF2718864400EF979D /* DesignCodeiOS15App.swift in Sources */,
 				96DA31CE2746A6B1009A8497 /* FeaturedItem.swift in Sources */,
 				96246DEE2746B86600D2EA00 /* PreferenceKeys.swift in Sources */,
