@@ -26,6 +26,7 @@
 		96C014B927BD468400099444 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C014B827BD468400099444 /* Suggestion.swift */; };
 		96C014BB27BE9DE700099444 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C014BA27BE9DE700099444 /* SignUpView.swift */; };
 		96C014BD27BED50200099444 /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C014BC27BED50200099444 /* AngularButtonStyle.swift */; };
+		96C014BF27C0023D00099444 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C014BE27C0023D00099444 /* InputStyle.swift */; };
 		96C9A2CF2718864400EF979D /* DesignCodeiOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9A2CE2718864400EF979D /* DesignCodeiOS15App.swift */; };
 		96C9A2D12718864400EF979D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9A2D02718864400EF979D /* ContentView.swift */; };
 		96C9A2D32718864700EF979D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C9A2D22718864700EF979D /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		96C014B827BD468400099444 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
 		96C014BA27BE9DE700099444 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		96C014BC27BED50200099444 /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
+		96C014BE27C0023D00099444 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 		96C9A2CB2718864400EF979D /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C9A2CE2718864400EF979D /* DesignCodeiOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15App.swift; sourceTree = "<group>"; };
 		96C9A2D02718864400EF979D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				96246DF12746C21D00D2EA00 /* AnimatableFontModifier.swift */,
 				96915F1F278F317E00A7DC92 /* Animations.swift */,
 				96C014BC27BED50200099444 /* AngularButtonStyle.swift */,
+				96C014BE27C0023D00099444 /* InputStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				96C014BB27BE9DE700099444 /* SignUpView.swift in Sources */,
 				96915F20278F317E00A7DC92 /* Animations.swift in Sources */,
 				96246DEE2746B86600D2EA00 /* PreferenceKeys.swift in Sources */,
+				96C014BF27C0023D00099444 /* InputStyle.swift in Sources */,
 				96915F222791D23C00A7DC92 /* Model.swift in Sources */,
 				9688F90B273552F1001C5661 /* TabBar.swift in Sources */,
 				96246DF22746C21D00D2EA00 /* AnimatableFontModifier.swift in Sources */,
