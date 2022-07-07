@@ -31,6 +31,7 @@
 		96C014C527C68EB500099444 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C014C427C68EB500099444 /* SignInView.swift */; };
 		96C014C827C7DC9300099444 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C014C727C7DC9300099444 /* AvatarView.swift */; };
 		96C0150D27C838AC00099444 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0150C27C838AC00099444 /* Address.swift */; };
+		96C0150F27C83D6500099444 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0150E27C83D6500099444 /* Coin.swift */; };
 		96C9A2CF2718864400EF979D /* DesignCodeiOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9A2CE2718864400EF979D /* DesignCodeiOS15App.swift */; };
 		96C9A2D12718864400EF979D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9A2D02718864400EF979D /* ContentView.swift */; };
 		96C9A2D32718864700EF979D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C9A2D22718864700EF979D /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		96C014C427C68EB500099444 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		96C014C727C7DC9300099444 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		96C0150C27C838AC00099444 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		96C0150E27C83D6500099444 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		96C9A2CB2718864400EF979D /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C9A2CE2718864400EF979D /* DesignCodeiOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15App.swift; sourceTree = "<group>"; };
 		96C9A2D02718864400EF979D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				96915F212791D23C00A7DC92 /* Model.swift */,
 				96C014B827BD468400099444 /* Suggestion.swift */,
 				96C0150C27C838AC00099444 /* Address.swift */,
+				96C0150E27C83D6500099444 /* Coin.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				96C014BD27BED50200099444 /* AngularButtonStyle.swift in Sources */,
 				969A7F0D273331F200D3F594 /* BlobView.swift in Sources */,
 				96C014C527C68EB500099444 /* SignInView.swift in Sources */,
+				96C0150F27C83D6500099444 /* Coin.swift in Sources */,
 				96C9A2D12718864400EF979D /* ContentView.swift in Sources */,
 				96246DF82757D28F00D2EA00 /* Course.swift in Sources */,
 				96C9A2CF2718864400EF979D /* DesignCodeiOS15App.swift in Sources */,
