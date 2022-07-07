@@ -42,6 +42,9 @@
 		96C0152327C991DD00099444 /* HandbookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0152227C991DD00099444 /* HandbookItem.swift */; };
 		96C0152527C9B73E00099444 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0152427C9B73E00099444 /* Topic.swift */; };
 		96C0152727C9B75B00099444 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0152627C9B75B00099444 /* ListRow.swift */; };
+		96C0152F27C9C59D00099444 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0152E27C9C59D00099444 /* NotificationsView.swift */; };
+		96C0153127C9C6E700099444 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0153027C9C6E700099444 /* LibraryView.swift */; };
+		96C0153327C9C76B00099444 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0153227C9C76B00099444 /* CertificateView.swift */; };
 		96C9A2CF2718864400EF979D /* DesignCodeiOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9A2CE2718864400EF979D /* DesignCodeiOS15App.swift */; };
 		96C9A2D12718864400EF979D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9A2D02718864400EF979D /* ContentView.swift */; };
 		96C9A2D32718864700EF979D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C9A2D22718864700EF979D /* Assets.xcassets */; };
@@ -86,6 +89,9 @@
 		96C0152227C991DD00099444 /* HandbookItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookItem.swift; sourceTree = "<group>"; };
 		96C0152427C9B73E00099444 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		96C0152627C9B75B00099444 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		96C0152E27C9C59D00099444 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		96C0153027C9C6E700099444 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		96C0153227C9C76B00099444 /* CertificateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
 		96C9A2CB2718864400EF979D /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C9A2CE2718864400EF979D /* DesignCodeiOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15App.swift; sourceTree = "<group>"; };
 		96C9A2D02718864400EF979D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +187,8 @@
 			children = (
 				965D0A5F273C2AED00158A7A /* HomeView.swift */,
 				96C0151A27C935C400099444 /* ExploreView.swift */,
+				96C0152E27C9C59D00099444 /* NotificationsView.swift */,
+				96C0153027C9C6E700099444 /* LibraryView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -212,6 +220,7 @@
 				96C0151C27C936D000099444 /* SmallCourseItem.swift */,
 				96C0152227C991DD00099444 /* HandbookItem.swift */,
 				96C0152627C9B75B00099444 /* ListRow.swift */,
+				96C0153227C9C76B00099444 /* CertificateView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -364,8 +373,10 @@
 				96C0152127C991B800099444 /* Handbook.swift in Sources */,
 				969A7F0D273331F200D3F594 /* BlobView.swift in Sources */,
 				96C014C527C68EB500099444 /* SignInView.swift in Sources */,
+				96C0153327C9C76B00099444 /* CertificateView.swift in Sources */,
 				96C0151127C91E3D00099444 /* CircularView.swift in Sources */,
 				96C0151327C920F000099444 /* CourseSection.swift in Sources */,
+				96C0153127C9C6E700099444 /* LibraryView.swift in Sources */,
 				96C0150F27C83D6500099444 /* Coin.swift in Sources */,
 				96C0151D27C936D000099444 /* SmallCourseItem.swift in Sources */,
 				96C9A2D12718864400EF979D /* ContentView.swift in Sources */,
@@ -375,6 +386,7 @@
 				96DA31CE2746A6B1009A8497 /* FeaturedItem.swift in Sources */,
 				96C014BB27BE9DE700099444 /* SignUpView.swift in Sources */,
 				96C0151527C9215A00099444 /* SectionRow.swift in Sources */,
+				96C0152F27C9C59D00099444 /* NotificationsView.swift in Sources */,
 				96915F20278F317E00A7DC92 /* Animations.swift in Sources */,
 				96246DEE2746B86600D2EA00 /* PreferenceKeys.swift in Sources */,
 				96C014BF27C0023D00099444 /* InputStyle.swift in Sources */,
