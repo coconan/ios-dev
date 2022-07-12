@@ -1,0 +1,10 @@
+.DS_Store
+profile
+
+*.pbxuser
+xcuserdata
+DerivedData/
+build/*
+
+.idea
+
